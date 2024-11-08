@@ -33,7 +33,7 @@ Resources:
         systemctl start httpd
         systemctl enable httpd
         cd /var/www/html
-        FOLDER="https://raw.githubusercontent.com/kodal035/101-kittens-carousel-static-website-ec2/refs/heads/main/static-web"
+        FOLDER="https://raw.githubusercontent.com/osmantaha-89/101-kittens-carousel-static-website-ec2/refs/heads/main/static-web"
         wget ${FOLDER}/index.html
         wget ${FOLDER}/cat0.jpg
         wget ${FOLDER}/cat1.jpg
